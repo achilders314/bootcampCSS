@@ -1,0 +1,252 @@
+/* 
+Color Palette:
+Purple:  #8E44AD
+Gray
+*/
+
+body {
+    font-family: sans-serif;
+    margin:0;
+}
+
+header {
+    height: 100px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    background-color: white;
+    padding-top: 40px;
+    text-align: right;
+}
+
+header a {
+    padding: 40px 40px 60px 40px;
+    font-size: 20px;
+    vertical-align: center;
+}
+
+.more-space {
+    display: inline-block;
+    padding-right: 300px;
+    padding-top: 20px;
+    vertical-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+    max-width: 500px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+button {
+    width: 200px;
+}
+.standard-button {
+    background-color: #fff;
+    border: 3px solid #fff;
+    padding: 20px 35px;
+    font-weight: bold;
+}
+
+.standard-button:hover {
+    background-color: #f0f0f0;
+    border: 3px solid #f0f0f0;
+}
+
+.standard-button:active {
+    background-color: #f0f0f0;
+    border: 3px solid dimgray;
+}
+
+p {
+    font-size: 20px;
+}
+
+.rocket-background {
+    color:#fff;
+    height: 800px;
+    background-image: url('/images/rocket_launch.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.black-background {
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 200px;
+    padding: 300px 100px;
+}
+
+.large-text {
+    text-align: center;
+    font-size: 30px;
+}
+
+.pic-flex {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.pics {
+    display: inline-block;
+    width: 550px;
+    height: 600px;
+    border: 1px solid rgb(184, 183, 183);
+    margin: 10px 20px;
+    justify-content: center;
+}
+
+.pics p {
+    padding: 20px;
+    text-align: center;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+.floating-box {
+    margin: 170px 103px 85px 103px;
+}
+
+.floating-box img {
+    width: 800px;
+}
+
+.floating-box div {
+    padding: 25px 50px 50px 50px;
+    background-image: url("/images/charcoal-textured-seamless-background1.png");
+    color: #fff;
+    line-height: 1.5;
+    z-index: 1000;
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    margin: -200px -200px 0 -200px;
+}
+
+
+.floating-box-right {
+    margin: 170px 103px 0 103px;
+}
+
+.floating-box-right img {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+}
+
+.floating-box-right div {
+    padding: 25px 50px 50px 50px;
+    background-image: url("/images/charcoal-textured-seamless-background1.png");
+    color: #fff;
+    line-height: 1.5;
+    z-index: 1000;
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    margin: -200px -900px 0 0;
+}
+
+.purple-button {
+    color:#fff;
+    background-color: #8E44AD;
+    border: 3px solid #8E44AD;
+    padding: 20px 35px;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.purple-button:hover {
+    background-color: #6d3485;
+    border: 3px solid #6d3485;
+}
+
+.purple-button:active {
+    background-color: #6d3485;
+    border: 3px solid #ca64f5;
+}
+
+.purple-button a {
+    color: #fff;
+}
+
+.terminator {
+    height: 200px;
+    position: relative;
+}
+
+.quote {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.purple {
+    color: #fff;
+    background-color: #8E44AD;
+    padding: 100px;
+    position: relative;
+}
+
+.purple h2 {
+    display: inline-block;
+    width: 60%;
+}
+
+.purple p {
+    display: inline-block;
+    width: 60%;
+}
+
+.purple button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    padding: 75px;
+}
+
+.footer {
+    padding: 0 40px;
+    line-height: 1.5;
+    width: 200px;
+    font-size: 18px;
+}
+.footer a {
+    color: #fff;
+}
+
+.tiny {
+    color: dimgray
+}
